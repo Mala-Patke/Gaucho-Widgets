@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30BD85F2C7968980036EBF8 /* DiningHallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30BD85E2C7968980036EBF8 /* DiningHallData.swift */; };
+		C30BD8602C79B2C30036EBF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D423F2C56200200FBC37D /* ContentView.swift */; };
+		C30BD8612C79B2CE0036EBF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D423F2C56200200FBC37D /* ContentView.swift */; };
+		C30BD8622C79B2EF0036EBF8 /* DiningHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D42762C56300D00FBC37D /* DiningHall.swift */; };
+		C30BD8652C79B34E0036EBF8 /* DiningHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D42762C56300D00FBC37D /* DiningHall.swift */; };
+		C30BD8662C79B34F0036EBF8 /* DiningHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D42762C56300D00FBC37D /* DiningHall.swift */; };
+		C30BD8672C79B4D10036EBF8 /* DiningHallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30BD85E2C7968980036EBF8 /* DiningHallData.swift */; };
+		C30D423E2C56200200FBC37D /* Gaucho_WidgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D423D2C56200200FBC37D /* Gaucho_WidgetsApp.swift */; };
+		C30D42422C56200400FBC37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30D42412C56200400FBC37D /* Assets.xcassets */; };
+		C30D42452C56200400FBC37D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30D42442C56200400FBC37D /* Preview Assets.xcassets */; };
+		C30D424F2C56200400FBC37D /* Gaucho_WidgetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D424E2C56200400FBC37D /* Gaucho_WidgetsTests.swift */; };
+		C30D42592C56200400FBC37D /* Gaucho_WidgetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D42582C56200400FBC37D /* Gaucho_WidgetsUITests.swift */; };
+		C30D425B2C56200400FBC37D /* Gaucho_WidgetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D425A2C56200400FBC37D /* Gaucho_WidgetsUITestsLaunchTests.swift */; };
+		C30D426E2C56300D00FBC37D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30D426D2C56300D00FBC37D /* WidgetKit.framework */; };
+		C30D42732C56300D00FBC37D /* DiningHallBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D42722C56300D00FBC37D /* DiningHallBundle.swift */; };
+		C30D42752C56300D00FBC37D /* DiningHallLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D42742C56300D00FBC37D /* DiningHallLiveActivity.swift */; };
+		C30D42772C56300D00FBC37D /* DiningHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D42762C56300D00FBC37D /* DiningHall.swift */; };
+		C30D427A2C56300F00FBC37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30D42792C56300F00FBC37D /* Assets.xcassets */; };
+		C30D427C2C56300F00FBC37D /* DiningHall.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C30D42782C56300D00FBC37D /* DiningHall.intentdefinition */; };
+		C30D427D2C56300F00FBC37D /* DiningHall.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C30D42782C56300D00FBC37D /* DiningHall.intentdefinition */; };
+		C30D42802C56300F00FBC37D /* DiningHallExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C30D426B2C56300D00FBC37D /* DiningHallExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C30D424B2C56200400FBC37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C30D42322C56200200FBC37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C30D42392C56200200FBC37D;
+			remoteInfo = "Gaucho Widgets";
+		};
+		C30D42552C56200400FBC37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C30D42322C56200200FBC37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C30D42392C56200200FBC37D;
+			remoteInfo = "Gaucho Widgets";
+		};
+		C30D427E2C56300F00FBC37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C30D42322C56200200FBC37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C30D426A2C56300D00FBC37D;
+			remoteInfo = DiningHallExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C30D42842C56300F00FBC37D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C30D42802C56300F00FBC37D /* DiningHallExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30D428C2C5729CB00FBC37D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C30BD85E2C7968980036EBF8 /* DiningHallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHallData.swift; sourceTree = "<group>"; };
+		C30D423A2C56200200FBC37D /* Gaucho Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gaucho Widgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30D423D2C56200200FBC37D /* Gaucho_WidgetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaucho_WidgetsApp.swift; sourceTree = "<group>"; };
+		C30D423F2C56200200FBC37D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C30D42412C56200400FBC37D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C30D42442C56200400FBC37D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C30D424A2C56200400FBC37D /* Gaucho WidgetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaucho WidgetsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30D424E2C56200400FBC37D /* Gaucho_WidgetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaucho_WidgetsTests.swift; sourceTree = "<group>"; };
+		C30D42542C56200400FBC37D /* Gaucho WidgetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaucho WidgetsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30D42582C56200400FBC37D /* Gaucho_WidgetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaucho_WidgetsUITests.swift; sourceTree = "<group>"; };
+		C30D425A2C56200400FBC37D /* Gaucho_WidgetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaucho_WidgetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C30D426B2C56300D00FBC37D /* DiningHallExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DiningHallExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30D426D2C56300D00FBC37D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C30D42722C56300D00FBC37D /* DiningHallBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHallBundle.swift; sourceTree = "<group>"; };
+		C30D42742C56300D00FBC37D /* DiningHallLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHallLiveActivity.swift; sourceTree = "<group>"; };
+		C30D42762C56300D00FBC37D /* DiningHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiningHall.swift; path = DiningHall/DiningHall.swift; sourceTree = SOURCE_ROOT; };
+		C30D42782C56300D00FBC37D /* DiningHall.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DiningHall.intentdefinition; sourceTree = "<group>"; };
+		C30D42792C56300F00FBC37D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C30D427B2C56300F00FBC37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C30D42372C56200200FBC37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30D42472C56200400FBC37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30D42512C56200400FBC37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30D42682C56300D00FBC37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30D426E2C56300D00FBC37D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C30D42312C56200200FBC37D = {
+			isa = PBXGroup;
+			children = (
+				C30D423C2C56200200FBC37D /* Gaucho Widgets */,
+				C30D424D2C56200400FBC37D /* Gaucho WidgetsTests */,
+				C30D42572C56200400FBC37D /* Gaucho WidgetsUITests */,
+				C30D42712C56300D00FBC37D /* DiningHall */,
+				C30D426C2C56300D00FBC37D /* Frameworks */,
+				C30D423B2C56200200FBC37D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C30D423B2C56200200FBC37D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C30D423A2C56200200FBC37D /* Gaucho Widgets.app */,
+				C30D424A2C56200400FBC37D /* Gaucho WidgetsTests.xctest */,
+				C30D42542C56200400FBC37D /* Gaucho WidgetsUITests.xctest */,
+				C30D426B2C56300D00FBC37D /* DiningHallExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C30D423C2C56200200FBC37D /* Gaucho Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				C30D423D2C56200200FBC37D /* Gaucho_WidgetsApp.swift */,
+				C30D423F2C56200200FBC37D /* ContentView.swift */,
+				C30D42412C56200400FBC37D /* Assets.xcassets */,
+				C30D42432C56200400FBC37D /* Preview Content */,
+			);
+			path = "Gaucho Widgets";
+			sourceTree = "<group>";
+		};
+		C30D42432C56200400FBC37D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C30D42442C56200400FBC37D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C30D424D2C56200400FBC37D /* Gaucho WidgetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C30D424E2C56200400FBC37D /* Gaucho_WidgetsTests.swift */,
+			);
+			path = "Gaucho WidgetsTests";
+			sourceTree = "<group>";
+		};
+		C30D42572C56200400FBC37D /* Gaucho WidgetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C30D42582C56200400FBC37D /* Gaucho_WidgetsUITests.swift */,
+				C30D425A2C56200400FBC37D /* Gaucho_WidgetsUITestsLaunchTests.swift */,
+			);
+			path = "Gaucho WidgetsUITests";
+			sourceTree = "<group>";
+		};
+		C30D426C2C56300D00FBC37D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C30D426D2C56300D00FBC37D /* WidgetKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C30D42712C56300D00FBC37D /* DiningHall */ = {
+			isa = PBXGroup;
+			children = (
+				C30D42722C56300D00FBC37D /* DiningHallBundle.swift */,
+				C30D42742C56300D00FBC37D /* DiningHallLiveActivity.swift */,
+				C30BD85E2C7968980036EBF8 /* DiningHallData.swift */,
+				C30D42762C56300D00FBC37D /* DiningHall.swift */,
+				C30D42782C56300D00FBC37D /* DiningHall.intentdefinition */,
+				C30D42792C56300F00FBC37D /* Assets.xcassets */,
+				C30D427B2C56300F00FBC37D /* Info.plist */,
+			);
+			path = DiningHall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C30D42392C56200200FBC37D /* Gaucho Widgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30D425E2C56200400FBC37D /* Build configuration list for PBXNativeTarget "Gaucho Widgets" */;
+			buildPhases = (
+				C30D42362C56200200FBC37D /* Sources */,
+				C30D42372C56200200FBC37D /* Frameworks */,
+				C30D42382C56200200FBC37D /* Resources */,
+				C30D42842C56300F00FBC37D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C30D427F2C56300F00FBC37D /* PBXTargetDependency */,
+			);
+			name = "Gaucho Widgets";
+			packageProductDependencies = (
+			);
+			productName = "Gaucho Widgets";
+			productReference = C30D423A2C56200200FBC37D /* Gaucho Widgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C30D42492C56200400FBC37D /* Gaucho WidgetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30D42612C56200400FBC37D /* Build configuration list for PBXNativeTarget "Gaucho WidgetsTests" */;
+			buildPhases = (
+				C30D42462C56200400FBC37D /* Sources */,
+				C30D42472C56200400FBC37D /* Frameworks */,
+				C30D42482C56200400FBC37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C30D424C2C56200400FBC37D /* PBXTargetDependency */,
+			);
+			name = "Gaucho WidgetsTests";
+			productName = "Gaucho WidgetsTests";
+			productReference = C30D424A2C56200400FBC37D /* Gaucho WidgetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C30D42532C56200400FBC37D /* Gaucho WidgetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30D42642C56200400FBC37D /* Build configuration list for PBXNativeTarget "Gaucho WidgetsUITests" */;
+			buildPhases = (
+				C30D42502C56200400FBC37D /* Sources */,
+				C30D42512C56200400FBC37D /* Frameworks */,
+				C30D42522C56200400FBC37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C30D42562C56200400FBC37D /* PBXTargetDependency */,
+			);
+			name = "Gaucho WidgetsUITests";
+			productName = "Gaucho WidgetsUITests";
+			productReference = C30D42542C56200400FBC37D /* Gaucho WidgetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C30D426A2C56300D00FBC37D /* DiningHallExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30D42812C56300F00FBC37D /* Build configuration list for PBXNativeTarget "DiningHallExtension" */;
+			buildPhases = (
+				C30D42672C56300D00FBC37D /* Sources */,
+				C30D42682C56300D00FBC37D /* Frameworks */,
+				C30D42692C56300D00FBC37D /* Resources */,
+				C30D428C2C5729CB00FBC37D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiningHallExtension;
+			productName = DiningHallExtension;
+			productReference = C30D426B2C56300D00FBC37D /* DiningHallExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C30D42322C56200200FBC37D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C30D42392C56200200FBC37D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C30D42492C56200400FBC37D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C30D42392C56200200FBC37D;
+					};
+					C30D42532C56200400FBC37D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C30D42392C56200200FBC37D;
+					};
+					C30D426A2C56300D00FBC37D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C30D42352C56200200FBC37D /* Build configuration list for PBXProject "Gaucho Widgets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C30D42312C56200200FBC37D;
+			packageReferences = (
+			);
+			productRefGroup = C30D423B2C56200200FBC37D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C30D42392C56200200FBC37D /* Gaucho Widgets */,
+				C30D42492C56200400FBC37D /* Gaucho WidgetsTests */,
+				C30D42532C56200400FBC37D /* Gaucho WidgetsUITests */,
+				C30D426A2C56300D00FBC37D /* DiningHallExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C30D42382C56200200FBC37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30D42452C56200400FBC37D /* Preview Assets.xcassets in Resources */,
+				C30D42422C56200400FBC37D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30D42482C56200400FBC37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30D42522C56200400FBC37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30D42692C56300D00FBC37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30D427A2C56300F00FBC37D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C30D42362C56200200FBC37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30BD8622C79B2EF0036EBF8 /* DiningHall.swift in Sources */,
+				C30D423E2C56200200FBC37D /* Gaucho_WidgetsApp.swift in Sources */,
+				C30D427D2C56300F00FBC37D /* DiningHall.intentdefinition in Sources */,
+				C30BD8612C79B2CE0036EBF8 /* ContentView.swift in Sources */,
+				C30BD85F2C7968980036EBF8 /* DiningHallData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30D42462C56200400FBC37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30D424F2C56200400FBC37D /* Gaucho_WidgetsTests.swift in Sources */,
+				C30BD8652C79B34E0036EBF8 /* DiningHall.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30D42502C56200400FBC37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30BD8662C79B34F0036EBF8 /* DiningHall.swift in Sources */,
+				C30D42592C56200400FBC37D /* Gaucho_WidgetsUITests.swift in Sources */,
+				C30D425B2C56200400FBC37D /* Gaucho_WidgetsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30D42672C56300D00FBC37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30D42772C56300D00FBC37D /* DiningHall.swift in Sources */,
+				C30BD8602C79B2C30036EBF8 /* ContentView.swift in Sources */,
+				C30D42752C56300D00FBC37D /* DiningHallLiveActivity.swift in Sources */,
+				C30BD8672C79B4D10036EBF8 /* DiningHallData.swift in Sources */,
+				C30D427C2C56300F00FBC37D /* DiningHall.intentdefinition in Sources */,
+				C30D42732C56300D00FBC37D /* DiningHallBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C30D424C2C56200400FBC37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C30D42392C56200200FBC37D /* Gaucho Widgets */;
+			targetProxy = C30D424B2C56200400FBC37D /* PBXContainerItemProxy */;
+		};
+		C30D42562C56200400FBC37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C30D42392C56200200FBC37D /* Gaucho Widgets */;
+			targetProxy = C30D42552C56200400FBC37D /* PBXContainerItemProxy */;
+		};
+		C30D427F2C56300F00FBC37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C30D426A2C56300D00FBC37D /* DiningHallExtension */;
+			targetProxy = C30D427E2C56300F00FBC37D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C30D425C2C56200400FBC37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C30D425D2C56200400FBC37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C30D425F2C56200400FBC37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gaucho Widgets/Preview Content\"";
+				DEVELOPMENT_TEAM = 28DB74XZHT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mala-patke.Gaucho-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C30D42602C56200400FBC37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gaucho Widgets/Preview Content\"";
+				DEVELOPMENT_TEAM = 28DB74XZHT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mala-patke.Gaucho-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C30D42622C56200400FBC37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mala-patke.Gaucho-WidgetsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaucho Widgets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gaucho Widgets";
+			};
+			name = Debug;
+		};
+		C30D42632C56200400FBC37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mala-patke.Gaucho-WidgetsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaucho Widgets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gaucho Widgets";
+			};
+			name = Release;
+		};
+		C30D42652C56200400FBC37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mala-patke.Gaucho-WidgetsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gaucho Widgets";
+			};
+			name = Debug;
+		};
+		C30D42662C56200400FBC37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mala-patke.Gaucho-WidgetsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gaucho Widgets";
+			};
+			name = Release;
+		};
+		C30D42822C56300F00FBC37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28DB74XZHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiningHall/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DiningHall;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mala-patke.Gaucho-Widgets.DiningHall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C30D42832C56300F00FBC37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28DB74XZHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiningHall/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DiningHall;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mala-patke.Gaucho-Widgets.DiningHall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C30D42352C56200200FBC37D /* Build configuration list for PBXProject "Gaucho Widgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30D425C2C56200400FBC37D /* Debug */,
+				C30D425D2C56200400FBC37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30D425E2C56200400FBC37D /* Build configuration list for PBXNativeTarget "Gaucho Widgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30D425F2C56200400FBC37D /* Debug */,
+				C30D42602C56200400FBC37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30D42612C56200400FBC37D /* Build configuration list for PBXNativeTarget "Gaucho WidgetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30D42622C56200400FBC37D /* Debug */,
+				C30D42632C56200400FBC37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30D42642C56200400FBC37D /* Build configuration list for PBXNativeTarget "Gaucho WidgetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30D42652C56200400FBC37D /* Debug */,
+				C30D42662C56200400FBC37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30D42812C56300F00FBC37D /* Build configuration list for PBXNativeTarget "DiningHallExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30D42822C56300F00FBC37D /* Debug */,
+				C30D42832C56300F00FBC37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C30D42322C56200200FBC37D /* Project object */;
+}
